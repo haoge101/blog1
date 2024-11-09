@@ -6,7 +6,7 @@ author: Zwei
 date: 2024-11-09 01:23:00 +0800
 categories: [Blogging, Tutorial]
 tags: [getting started]
-pin: true
+pin: false
 media_subpath: '/posts/deploy-blog'
 ---
 
