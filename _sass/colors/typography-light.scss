@@ -4,7 +4,7 @@
 
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: white;
+  --main-bg: rgb(247, 247, 230);
   --mask-bg: #c1c3c5;
   --main-border-color: #f3f3f3;
 
@@ -16,9 +16,9 @@
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
-  --link-color: #0056b2;
-  --link-underline-color: #dee2e6;
-  --button-bg: #ffffff;
+  --link-color: #9a00b2f1;
+  --link-underline-color: #a8c2dcd0;
+  --button-bg: #79eb828b;
   --btn-border-color: #e9ecef;
   --btn-backtotop-color: #686868;
   --btn-backtotop-border-color: #f1f1f1;
