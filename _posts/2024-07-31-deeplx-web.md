@@ -6,7 +6,7 @@ tags: [Cloudlfare, Deeplx, translate]
 author: Zwei  # 或 authors: [Zwei, another_author]
 description: "LibreTranslator"
 image:
-  path: https://pics.sputnik.cloudns.ch/file/bf4c270e2bfb23cc6a07e.png
+  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241109183423.png
 permalink: '/w/deeplx-web'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录

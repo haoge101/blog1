@@ -6,7 +6,7 @@ tags: [Angular, Git]
 author: Zwei  # 或 authors: [Zwei, another_author]
 description: "第一篇正式博文，当然是 Hello world！"
 image:
-  path: https://i0.img2ipfs.com/ipfs/QmWLfBXWDrowQYPxFJeuXnx9hXQtdk7eTTFjqiPj6VfXAT
+  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/3a9282f87f892c286c9a9ccebe9c95dd_1679484529_216.png
 permalink: '/w/Angular'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录
