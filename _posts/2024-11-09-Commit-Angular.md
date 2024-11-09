@@ -4,7 +4,7 @@ date: 2024-11-09 17:51:00 +0800
 categories: [Study] # 目前有 Demo, Tutorial, Tech, Study
 tags: [Angular, Git]
 author: Zwei  # 或 authors: [Zwei, another_author]
-description: "第一篇正式博文，当然是 Hello world！"
+description: "规范的 git commit 信息"
 image:
   path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/3a9282f87f892c286c9a9ccebe9c95dd_1679484529_216.png
 permalink: '/w/Angular'  # 自定义永久链接
