@@ -4,7 +4,7 @@
 
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: rgb(246, 246, 246);
+  --main-bg: rgb(255, 255, 251);
   --mask-bg: #c1c3c5;
   --main-border-color: #f3f3f3;
 
@@ -39,7 +39,7 @@
   /* Sidebar */
   --site-title-color: rgb(113, 113, 113);
   --site-subtitle-color: #717171;
-  --sidebar-bg: #d2e9fff0;
+  --sidebar-bg: #e6e6e6;
   --sidebar-border-color: #efefef;
   --sidebar-muted-color: #545454;
   --sidebar-active-color: #1d1d1d;
