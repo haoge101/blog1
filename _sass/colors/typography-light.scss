@@ -3,10 +3,11 @@
  */
 
 @mixin light-scheme {
-  /* Framework color */
-  --main-bg: rgb(255, 252, 242);
-  --mask-bg: #c1c3c5;
-  --main-border-color: #f3f3f3;
+/* Framework color */
+  --main-bg: linear-gradient(to bottom, #fffdf2, #fffaf0); /*  柔和的米白色/奶油色渐变 */
+  --mask-bg: linear-gradient(to bottom, #e0e2e5, #d1d3d6); /*  柔和的浅灰色渐变 */
+  --main-border-color: linear-gradient(to bottom, #f8f9fa, #e9ecef); /*  与Bootstrap风格一致的柔和灰色渐变 */
+
 
   /* Common color */
   --text-color: #34343c;
