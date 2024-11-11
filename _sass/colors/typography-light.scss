@@ -27,18 +27,18 @@
   --site-title-color: #6d6d6d; /* 侧边栏标题颜色 */
   --site-subtitle-color: #4f4f4f; /* 侧边栏副标题颜色 */
   --sidebar-bg: linear-gradient(to bottom, #e0f7fa, #ffffff); /* 浅蓝色到白色的渐变，清新自然 */
-  --sidebar-border-color: #efefef; /* 侧边栏边框颜色 */
+  --sidebar-border-color: linear-gradient(to right, #efefef, #e0e0e0); /* 侧边栏边框渐变 */
   --sidebar-muted-color: #545454; /* 侧边栏次要文本颜色 */
   --sidebar-active-color: #1d1d1d; /* 侧边栏活动项颜色 */
-  --sidebar-hover-bg: rgba(223, 233, 241, 0.64); /* 侧边栏悬停背景颜色 */
-  --sidebar-btn-bg: white; /* 侧边栏按钮背景颜色 */
+  --sidebar-hover-bg: linear-gradient(to right, rgba(223, 233, 241, 0.64), rgba(200, 220, 230, 0.64)); /* 侧边栏悬停背景渐变 */
+  --sidebar-btn-bg: linear-gradient(to bottom, #ffffff, #f0f0f0); /* 侧边栏按钮背景渐变 */
   --sidebar-btn-color: #8e8e8e; /* 侧边栏按钮颜色 */
-  --avatar-border-color: white; /* 头像边框颜色 */
+  --avatar-border-color: #f0f0f0; /* 头像边框颜色 */
 
   /* Topbar */
   --topbar-bg: linear-gradient(to bottom, #ffffff, #f0f0f0); /* 顶部栏背景颜色的渐变 */
   --topbar-text-color: #4e4e4e; /* 顶部栏文本颜色 */
-  --search-border-color: #f0f0f0; /* 搜索框边框颜色 */
+  --search-border-color: linear-gradient(to right, #f0f0f0, #e0e0e0); /* 搜索框边框渐变 */
   --search-icon-color: #c2c6cc; /* 搜索图标颜色 */
   --input-focus-border-color: #b8b8b8; /* 输入框聚焦边框颜色 */
 
@@ -52,8 +52,8 @@
   --toc-popup-border-color: lightgray; /* 目录弹出边框颜色 */
   --btn-share-color: gray; /* 分享按钮颜色 */
   --btn-share-hover-color: #0d6efd; /* 分享按钮悬停颜色 */
-  --card-bg: white; /* 卡片背景颜色 */
-  --card-hovor-bg: #e2e2e2; /* 卡片悬停背景颜色 */
+  --card-bg: linear-gradient(to bottom, #ffffff, #f8f8f8); /* 卡片背景渐变 */
+  --card-hovor-bg: linear-gradient(to bottom, #e2e2e2, #dcdcdc); /* 卡片悬停背景渐变 */
   --card-shadow: rgba(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px; /* 卡片阴影 */
   --footnote-target-bg: lightcyan; /* 脚注目标背景颜色 */
   --tb-odd-bg: #fbfcfd; /* 表格奇数行背景颜色 */
@@ -73,14 +73,14 @@
   --prompt-danger-icon-color: #df3c30; /* 危险提示图标颜色 */
 
   /* Tags */
-  --tag-border: #dee2e6; /* 标签边框颜色 */
+  --tag-border: linear-gradient(to right, #dee2e6, #cfd8dc); /* 标签边框渐变 */
   --tag-shadow: var(--btn-border-color); /* 标签阴影 */
-  --tag-hover: rgb(222, 226, 230); /* 标签悬停颜色 */
+  --tag-hover: linear-gradient(to bottom, #f0f4f8, #e0e4e8); /* 标签悬停渐变 */
   --search-tag-bg: #f8f9fa; /* 搜索标签背景颜色 */
 
   /* Categories */
   --categories-border: rgba(0, 0, 0, 0.125); /* 分类边框颜色 */
-  --categories-hover-bg: var(--btn-border-color); /* 分类悬停背景颜色 */
+  --categories-hover-bg: linear-gradient(to bottom, #f0f0f0, #e0e0e0); /* 分类悬停背景渐变 */
   --categories-icon-hover-color: darkslategray; /* 分类图标悬停颜色 */
 
   /* Archive */
