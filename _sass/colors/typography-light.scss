@@ -14,7 +14,7 @@
   --blockquote-text-color: #707070; /* 中灰色引用文本 */
   --link-color: #0066cc; /* 柔和的蓝色链接，易于识别 */
   --link-underline-color: #99badd; /* 浅蓝色下划线，增强链接可见性 */
-  --button-bg: #f7b7a3; /* 柔和的粉橙色按钮背景 */
+  --button-bg: linear-gradient(to bottom, #f7b7a3, #f5a08d); /* 柔和的粉橙色按钮背景渐变 */
   --btn-border-color: #e1e1e1; /* 浅灰色按钮边框 */
   --btn-backtotop-color: #5a5a5a; /* 返回顶部按钮颜色 */
   --btn-backtotop-border-color: #dddddd; /* 返回顶部按钮边框颜色 */
@@ -36,7 +36,7 @@
   --avatar-border-color: white; /* 头像边框颜色 */
 
   /* Topbar */
-  --topbar-bg: rgba(255, 255, 255, 0.85); /* 顶部栏背景颜色 */
+  --topbar-bg: linear-gradient(to bottom, #ffffff, #f0f0f0); /* 顶部栏背景颜色的渐变 */
   --topbar-text-color: #4e4e4e; /* 顶部栏文本颜色 */
   --search-border-color: #f0f0f0; /* 搜索框边框颜色 */
   --search-icon-color: #c2c6cc; /* 搜索图标颜色 */
