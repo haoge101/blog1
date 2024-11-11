@@ -1,6 +1,6 @@
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: linear-gradient( #fff6ec); /* 温暖的奶油色，提供舒适的背景 */
+  --main-bg:  #fff6ec; /* 温暖的奶油色，提供舒适的背景 */
   --mask-bg: linear-gradient(to bottom, #d9d9d9, #c4c4c4); /* 柔和的灰色渐变，适合遮罩效果 */
   --main-border-color: linear-gradient(to bottom, #eaeaea, #dcdcdc); /* 浅灰色渐变，适合边框使用 */
 

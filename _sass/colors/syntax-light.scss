@@ -2,7 +2,7 @@
  * The syntax light mode code snippet colors.
  */
 
-@mixin light-syntax {
+ @mixin light-syntax {
   /* --- custom light colors --- */
   --language-border-color: #d9e7e6;
   --highlight-bg-color: #f6f8fa;
@@ -29,7 +29,6 @@
   .highlight .w {
     color: #24292f;
     background-color: #ffffff; 
-    // f7fbff
   }
 
   .highlight .k,
@@ -51,30 +50,15 @@
     background-color: #fefdf2;
   }
 
-  .highlight .nb {
-    color: #953800;
-  }
-
-  .highlight .nc {
-    color: #953800;
-  }
-
-  .highlight .no {
-    color: #953800;
-  }
-
+  .highlight .nb,
+  .highlight .nc,
+  .highlight .no,
   .highlight .nn {
     color: #953800;
   }
 
-  .highlight .sr {
-    color: #116329;
-  }
-
-  .highlight .na {
-    color: #116329;
-  }
-
+  .highlight .sr,
+  .highlight .na,
   .highlight .nt {
     color: #116329;
   }
@@ -84,10 +68,7 @@
     background-color: #dafbe1;
   }
 
-  .highlight .kc {
-    color: #0550ae;
-  }
-
+  .highlight .kc,
   .highlight .l,
   .highlight .ld,
   .highlight .m,
@@ -97,48 +78,20 @@
   .highlight .mi,
   .highlight .il,
   .highlight .mo,
-  .highlight .mx {
-    color: #0550ae;
-  }
-
-  .highlight .sb {
-    color: #0550ae;
-  }
-
-  .highlight .bp {
-    color: #0550ae;
-  }
-
-  .highlight .ne {
-    color: #0550ae;
-  }
-
-  .highlight .nl {
-    color: #0550ae;
-  }
-
-  .highlight .py {
-    color: #0550ae;
-  }
-
+  .highlight .mx,
+  .highlight .sb,
+  .highlight .bp,
+  .highlight .ne,
+  .highlight .nl,
+  .highlight .py,
   .highlight .nv,
   .highlight .vc,
   .highlight .vg,
   .highlight .vi,
-  .highlight .vm {
-    color: #0550ae;
-  }
-
+  .highlight .vm,
   .highlight .o,
-  .highlight .ow {
-    color: #0550ae;
-  }
-
-  .highlight .gh {
-    color: #0550ae;
-    font-weight: bold;
-  }
-
+  .highlight .ow,
+  .highlight .gh,
   .highlight .gu {
     color: #0550ae;
     font-weight: bold;
@@ -158,10 +111,7 @@
     color: #0a3069;
   }
 
-  .highlight .nd {
-    color: #8250df;
-  }
-
+  .highlight .nd,
   .highlight .nf,
   .highlight .fm {
     color: #8250df;
@@ -179,33 +129,18 @@
   .highlight .cp,
   .highlight .cpf,
   .highlight .c1,
-  .highlight .cs {
-    color: #68717a;
-  }
-
-  .highlight .gl {
-    color: #68717a;
-  }
-
+  .highlight .cs,
+  .highlight .gl,
   .highlight .gt {
     color: #68717a;
   }
 
-  .highlight .ni {
-    color: #24292f;
-  }
-
-  .highlight .si {
-    color: #24292f;
-  }
-
-  .highlight .ge {
-    color: #24292f;
-    font-style: italic;
-  }
-
+  .highlight .ni,
+  .highlight .si,
+  .highlight .ge,
   .highlight .gs {
     color: #24292f;
+    font-style: italic;
     font-weight: bold;
   }
 } /* light-syntax */
