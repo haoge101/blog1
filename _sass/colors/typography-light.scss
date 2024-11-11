@@ -26,7 +26,7 @@
   /* Sidebar */
   --site-title-color: #6d6d6d; /* 侧边栏标题颜色 */
   --site-subtitle-color: #4f4f4f; /* 侧边栏副标题颜色 */
-  --sidebar-bg: linear-gradient(to right, #d1f3f8, #fefaf5); /* 浅蓝色到奶油色的渐变 */
+  --sidebar-bg: linear-gradient(to right, #d1f3f8, #fefaf5); /* 侧边栏背景渐变 */
   --sidebar-border-color: linear-gradient(to right, #efefef, #e0e0e0); /* 侧边栏边框渐变 */
   --sidebar-muted-color: #545454; /* 侧边栏次要文本颜色 */
   --sidebar-active-color: #1d1d1d; /* 侧边栏活动项颜色 */
@@ -54,7 +54,7 @@
   --btn-share-hover-color: #0d6efd; /* 分享按钮悬停颜色 */
   --card-bg: linear-gradient(to bottom, #ffffff, #f8f8f8); /* 卡片背景渐变 */
   --card-hovor-bg: linear-gradient(to bottom, #e2e2e2, #dcdcdc); /* 卡片悬停背景渐变 */
-  --card-shadow: rgba(0, 0, 0, 0.1) 0 4px 8px, rgba(0, 0, 0, 0.1) 0 0 0 1px; /* 卡片阴影 */
+  --card-shadow: rgba(0, 0, 0, 0.08) 0 2px 4px, rgba(0, 0, 0, 0.08) 0 0 0 1px; /* 柔和的卡片阴影 */
   --footnote-target-bg: lightcyan; /* 脚注目标背景颜色 */
   --tb-odd-bg: #fbfcfd; /* 表格奇数行背景颜色 */
   --tb-border-color: #eaeaea; /* 表格边框颜色 */
@@ -96,19 +96,14 @@
     display: none; /* 隐藏暗色模式 */
   }
 
-  /* 增强交互反馈 */
+  /* 增强交互反馈和柔和过渡效果 */
+  a, button, .btn {
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+
   a:hover, button:hover, .btn:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时的背景色变化 */
-    transition: background-color 0.3s ease, color 0.3s ease; /* 柔和的过渡效果 */
-  }
-
-  /* 增加阴影效果 */
-  .card, .sidebar, .topbar {
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 8px, rgba(0, 0, 0, 0.1) 0 0 0 1px; /* 增加阴影 */
-  }
-
-  /* 使用柔和的过渡效果 */
-  .sidebar, .topbar, .card {
-    transition: box-shadow 0.3s ease, background-color 0.3s ease; /* 柔和的过渡效果 */
+    background-color: rgba(0, 102, 204, 0.1); /* 柔和的蓝色悬停背景 */
+    color: #0056b3; /* 深蓝色悬停文本颜色 */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px; /* 柔和的悬停阴影 */
   }
 } /* light-scheme */
