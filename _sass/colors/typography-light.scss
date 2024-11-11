@@ -1,6 +1,6 @@
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: linear-gradient(to bottom, #fefaf5, #fdf5e6); /* 温暖的奶油色渐变，提供舒适的背景 */
+  --main-bg: linear-gradient( #fff6ec); /* 温暖的奶油色，提供舒适的背景 */
   --mask-bg: linear-gradient(to bottom, #d9d9d9, #c4c4c4); /* 柔和的灰色渐变，适合遮罩效果 */
   --main-border-color: linear-gradient(to bottom, #eaeaea, #dcdcdc); /* 浅灰色渐变，适合边框使用 */
 
@@ -26,7 +26,7 @@
   /* Sidebar */
   --site-title-color: #6d6d6d; /* 侧边栏标题颜色 */
   --site-subtitle-color: #4f4f4f; /* 侧边栏副标题颜色 */
-  --sidebar-bg: linear-gradient(to right, #d1f3f8, #fefaf5); /* 侧边栏背景渐变 */
+  --sidebar-bg: linear-gradient(to right, #d1f3f8, #fff6ec); /* 侧边栏背景渐变 */
   --sidebar-border-color: linear-gradient(to right, #efefef, #e0e0e0); /* 侧边栏边框渐变 */
   --sidebar-muted-color: #545454; /* 侧边栏次要文本颜色 */
   --sidebar-active-color: #1d1d1d; /* 侧边栏活动项颜色 */
