@@ -1,45 +1,45 @@
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: linear-gradient(to bottom, #f7f9fc, #e3e9f1); /* 柔和的浅蓝色渐变，提供舒适的背景 */
+  --main-bg: linear-gradient(to bottom, #fefaf5, #fdf5e6); /* 温暖的奶油色渐变，提供舒适的背景 */
   --mask-bg: linear-gradient(to bottom, #d9d9d9, #c4c4c4); /* 柔和的灰色渐变，适合遮罩效果 */
   --main-border-color: linear-gradient(to bottom, #eaeaea, #dcdcdc); /* 浅灰色渐变，适合边框使用 */
 
   /* Common color */
-  --text-color: #2c3e50; /* 深蓝灰色文本，确保可读性 */
-  --text-muted-color: #7f8c8d; /* 中灰色用于次要文本 */
+  --text-color: #3a3a3a; /* 深灰色文本，确保可读性 */
+  --text-muted-color: #707070; /* 中灰色用于次要文本 */
   --text-muted-highlight-color: inherit; /* 继承父元素的颜色 */
-  --heading-color: #34495e; /* 深蓝色标题，突出显示 */
+  --heading-color: #2b2b2b; /* 深色标题，突出显示 */
   --label-color: #5c5c5c; /* 标签颜色，略深于次要文本 */
-  --blockquote-border-color: #bdc3c7; /* 浅灰色引用边框 */
-  --blockquote-text-color: #7f8c8d; /* 中灰色引用文本 */
-  --link-color: #2980b9; /* 柔和的蓝色链接，易于识别 */
-  --link-underline-color: #3498db; /* 浅蓝色下划线，增强链接可见性 */
-  --button-bg: linear-gradient(to bottom, #f39c12, #e67e22); /* 柔和的橙色按钮背景渐变 */
+  --blockquote-border-color: #dddddd; /* 浅灰色引用边框 */
+  --blockquote-text-color: #707070; /* 中灰色引用文本 */
+  --link-color: #0066cc; /* 柔和的蓝色链接，易于识别 */
+  --link-underline-color: #99badd; /* 浅蓝色下划线，增强链接可见性 */
+  --button-bg: linear-gradient(to bottom, #f7b7a3, #f5a08d); /* 柔和的粉橙色按钮背景渐变 */
   --btn-border-color: #e1e1e1; /* 浅灰色按钮边框 */
   --btn-backtotop-color: #5a5a5a; /* 返回顶部按钮颜色 */
   --btn-backtotop-border-color: #dddddd; /* 返回顶部按钮边框颜色 */
   --checkbox-color: #c7c7c7; /* 复选框颜色 */
-  --checkbox-checked-color: #27ae60; /* 选中复选框的颜色 */
+  --checkbox-checked-color: #06a7f6; /* 选中复选框的颜色 */
   --img-bg: radial-gradient(circle, #ffffff 0%, #f1f1f1 100%); /* 图像背景的径向渐变 */
   --shimmer-bg: linear-gradient(90deg, rgba(250, 250, 250, 0) 0%, rgba(232, 230, 230, 1) 50%, rgba(250, 250, 250, 0) 100%); /* 闪烁效果的线性渐变 */
 
   /* Sidebar */
-  --site-title-color: #34495e; /* 侧边栏标题颜色 */
-  --site-subtitle-color: #2c3e50; /* 侧边栏副标题颜色 */
-  --sidebar-bg: linear-gradient(to right, #ecf0f1, #bdc3c7); /* 柔和的灰白色渐变，现代且清新 */
-  --sidebar-border-color: #d5d8dc; /* 侧边栏边框颜色 */
-  --sidebar-muted-color: #7f8c8d; /* 侧边栏次要文本颜色 */
-  --sidebar-active-color: #2c3e50; /* 侧边栏活动项颜色 */
-  --sidebar-hover-bg: rgba(189, 195, 199, 0.64); /* 侧边栏悬停背景颜色 */
-  --sidebar-btn-bg: linear-gradient(to bottom, #ffffff, #ecf0f1); /* 侧边栏按钮背景渐变 */
-  --sidebar-btn-color: #7f8c8d; /* 侧边栏按钮颜色 */
-  --avatar-border-color: #ecf0f1; /* 头像边框颜色 */
+  --site-title-color: #6d6d6d; /* 侧边栏标题颜色 */
+  --site-subtitle-color: #4f4f4f; /* 侧边栏副标题颜色 */
+  --sidebar-bg: linear-gradient(to right, #e0f7fa, #a7ffeb); /* 浅蓝色到浅绿色的渐变，清新自然 */
+  --sidebar-border-color: linear-gradient(to right, #efefef, #e0e0e0); /* 侧边栏边框渐变 */
+  --sidebar-muted-color: #545454; /* 侧边栏次要文本颜色 */
+  --sidebar-active-color: #1d1d1d; /* 侧边栏活动项颜色 */
+  --sidebar-hover-bg: linear-gradient(to right, rgba(223, 233, 241, 0.64), rgba(200, 220, 230, 0.64)); /* 侧边栏悬停背景渐变 */
+  --sidebar-btn-bg: linear-gradient(to bottom, #ffffff, #f0f0f0); /* 侧边栏按钮背景渐变 */
+  --sidebar-btn-color: #8e8e8e; /* 侧边栏按钮颜色 */
+  --avatar-border-color: #f0f0f0; /* 头像边框颜色 */
 
   /* Topbar */
   --topbar-bg: linear-gradient(to bottom, #ffffff, #f0f0f0); /* 顶部栏背景颜色的渐变 */
-  --topbar-text-color: #34495e; /* 顶部栏文本颜色 */
+  --topbar-text-color: #4e4e4e; /* 顶部栏文本颜色 */
   --search-border-color: linear-gradient(to right, #f0f0f0, #e0e0e0); /* 搜索框边框渐变 */
-  --search-icon-color: #95a5a6; /* 搜索图标颜色 */
+  --search-icon-color: #c2c6cc; /* 搜索图标颜色 */
   --input-focus-border-color: #b8b8b8; /* 输入框聚焦边框颜色 */
 
   /* Home page */
@@ -48,10 +48,10 @@
   --btn-paginator-hover-color: var(--sidebar-bg); /* 分页按钮悬停背景颜色 */
 
   /* Posts */
-  --toc-highlight: #2980b9; /* 目录高亮颜色 */
+  --toc-highlight: #0550ae; /* 目录高亮颜色 */
   --toc-popup-border-color: lightgray; /* 目录弹出边框颜色 */
   --btn-share-color: gray; /* 分享按钮颜色 */
-  --btn-share-hover-color: #3498db; /* 分享按钮悬停颜色 */
+  --btn-share-hover-color: #0d6efd; /* 分享按钮悬停颜色 */
   --card-bg: linear-gradient(to bottom, #ffffff, #f8f8f8); /* 卡片背景渐变 */
   --card-hovor-bg: linear-gradient(to bottom, #e2e2e2, #dcdcdc); /* 卡片悬停背景渐变 */
   --card-shadow: rgba(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px; /* 卡片阴影 */
