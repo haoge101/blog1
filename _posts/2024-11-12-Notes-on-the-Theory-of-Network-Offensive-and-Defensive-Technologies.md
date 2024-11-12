@@ -951,7 +951,7 @@ HTTP指纹识别是为了判断服务器的版本，从而找到服务器的漏�
 	include($filename);
 ?>
 <?php
-	echo “hello, world”;
+	echo "hello, world";
 ?>
 <?php
 	phpinfo();
