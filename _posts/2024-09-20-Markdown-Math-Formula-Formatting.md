@@ -1,12 +1,12 @@
 ---
-title: "Markdown 数学公式格式"
+title: "【待完善】Markdown 数学公式格式"
 date: 2024-09-20 20:22:00 +0800
 categories: [Tutorial] # 目前有 Demo, Tutorial, Tech, Study
 tags: [markdown, math]
 author: Zwei  # 或 authors: [Zwei, another_author]
 description: "数学公式如何显示在MD文档中？"
 image:
-  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B97532124-11C7-40D0-869E-3A85E090F4FC%7D.png
+  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/%7B3A1E0E04-7C18-4D31-8A92-75180AF7B53E%7D.png
 permalink: '/w/Markdown-Math-Formula-Formatting'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录

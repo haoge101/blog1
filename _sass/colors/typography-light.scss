@@ -1,6 +1,6 @@
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: #fff6ec; /* 温暖的奶油色，提供舒适的背景 */
+  --main-bg:  #fff6ec; /* 温暖的奶油色，提供舒适的背景 */
   --mask-bg: linear-gradient(to bottom, #d9d9d9, #c4c4c4); /* 柔和的灰色渐变，适合遮罩效果 */
   --main-border-color: linear-gradient(to bottom, #eaeaea, #dcdcdc); /* 浅灰色渐变，适合边框使用 */
 
@@ -38,9 +38,9 @@
   /* Topbar */
   --topbar-bg: linear-gradient(to bottom, #ffffff, #f0f0f0); /* 顶部栏背景颜色的渐变 */
   --topbar-text-color: #4e4e4e; /* 顶部栏文本颜色 */
-  --search-border-color: linear-gradient(to right, #e0e0e0, #d0d0d0); /* 搜索框边框渐变 */
-  --search-icon-color: #a0a4ac; /* 搜索图标颜色 */
-  --input-focus-border-color: #a8a8a8; /* 输入框聚焦边框颜色 */
+  --search-border-color: linear-gradient(to right, #f0f0f0, #e0e0e0); /* 搜索框边框渐变 */
+  --search-icon-color: #c2c6cc; /* 搜索图标颜色 */
+  --input-focus-border-color: #b8b8b8; /* 输入框聚焦边框颜色 */
 
   /* Home page */
   --post-list-text-color: dimgray; /* 文章列表文本颜色 */
@@ -105,36 +105,5 @@
     background-color: rgba(0, 102, 204, 0.1); /* 柔和的蓝色悬停背景 */
     color: #0056b3; /* 深蓝色悬停文本颜色 */
     box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px; /* 柔和的悬停阴影 */
-  }
-
-  /* 搜索框美化 */
-  .search-input {
-    background-color: #ffffff; /* 搜索框背景颜色 */
-    border: 1px solid var(--search-border-color); /* 搜索框边框 */
-    border-radius: 4px; /* 搜索框圆角 */
-    padding: 8px 12px; /* 搜索框内边距 */
-    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* 搜索框过渡效果 */
-  }
-
-  .search-input:focus {
-    border-color: var(--input-focus-border-color); /* 聚焦时的边框颜色 */
-    box-shadow: 0 0 5px rgba(0, 102, 204, 0.2); /* 聚焦时的阴影效果 */
-  }
-
-  /* 顶部栏美化 */
-  .topbar {
-    background: var(--topbar-bg); /* 顶部栏背景 */
-    color: var(--topbar-text-color); /* 顶部栏文本颜色 */
-    padding: 10px 20px; /* 顶部栏内边距 */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 顶部栏阴影 */
-  }
-
-  .topbar .menu-item {
-    margin-right: 15px; /* 菜单项间距 */
-    transition: color 0.3s ease; /* 菜单项过渡效果 */
-  }
-
-  .topbar .menu-item:hover {
-    color: #0056b3; /* 菜单项悬停颜色 */
   }
 } /* light-scheme */
