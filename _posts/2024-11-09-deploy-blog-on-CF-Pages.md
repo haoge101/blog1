@@ -1,5 +1,5 @@
 ---
-title: 使用Cloudflare Pages部署本博客
+title: 【待完善】使用Cloudflare Pages部署本博客
 description: >-
   这是非常棒的Jekyll博客项目，可以借助Github Pages、Vercel、netify、Cloudflare Pages等部署...
 author: Zwei

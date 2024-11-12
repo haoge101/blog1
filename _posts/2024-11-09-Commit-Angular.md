@@ -1,5 +1,5 @@
 ---
-title: "Angular 提交规范"
+title: "【待完善】Angular 提交规范"
 date: 2024-11-09 17:51:00 +0800
 categories: [Study] # 目前有 Demo, Tutorial, Tech, Study
 tags: [Angular, Git]
