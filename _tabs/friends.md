@@ -12,7 +12,7 @@ order: 5
         style="border:none; width:100%; height:200px; overflow:hidden;" 
         scrolling="no"></iframe>
 
-<iframe src="https://friendcard.zwei.de.eu.org/?name=Zwei&specialty=一只野生的大学生&link=https://zwei.de.eu.org" 
+<iframe src="https://friendcard.zwei.de.eu.org/?name=【示例】&specialty=测试一下&link=https://zwei.de.eu.org" 
         style="border:none; width:100%; height:200px; overflow:hidden;" 
         scrolling="no"></iframe>
 
