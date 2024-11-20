@@ -34,9 +34,10 @@ Angular 提交规范是一种约定俗成的提交信息格式，旨在使提交
 - **feat**: 新功能（A new feature）
 - **fix**: 修复 bug（A bug fix）
 - **docs**: 文档变更（Documentation only changes）
-- **style**: 代码样式变更（Changes that do not affect the meaning of the code, such as white-space, formatting, missing semi-colons, etc.）
+- **style**: 代码样式变更，不影响代码意义（Changes that do not affect the meaning of the code, such as white-space, formatting, missing semi-colons, etc.）
 - **refactor**: 重构代码（A code change that neither fixes a bug nor adds a feature）
 - **test**: 测试相关（Adding missing tests or correcting existing tests）
+- **perf**: 提高性能的代码
 - **chore**: 其他杂项（Other changes that don't modify src or test files）
 
 ##### 2. 范围（Scope）
@@ -55,6 +56,11 @@ Angular 提交规范是一种约定俗成的提交信息格式，旨在使提交
 - **fix issue with API request**
 - **update installation instructions**
 
+##### 4. 脚注（Footer）
+   脚注用于记录本次提交的一些重要信息，如与某个 issue 相关或者是破坏性的变更。
+
+  ` Issue #12`
+
 #### 示例
 
 以下是一些符合Angular提交规范的示例：
@@ -68,16 +74,6 @@ refactor(user): simplify user authentication logic
 test(auth): add unit tests for authentication service
 chore(deps): update project dependencies
 ```
-
-#### 常见提交类型
-
-- **feat**: 新功能
-- **fix**: 修复 bug
-- **docs**: 文档变更
-- **style**: 代码样式变更
-- **refactor**: 重构代码
-- **test**: 测试相关
-- **chore**: 其他杂项
 
 #### 其他注意事项
 
