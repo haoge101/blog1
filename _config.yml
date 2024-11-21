@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Zwei's blog # the main title
+title: Zwei's Haven # the main title
 
-tagline: 太平世界，环球同此凉热 # it will display as the subtitle
+tagline: 吾生也有涯，而知也无涯  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   这里是 Zwei 的博客~ 我是一名信息安全专业的大三学生。
