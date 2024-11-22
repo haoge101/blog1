@@ -14,7 +14,7 @@ order: 5
           scrolling="no"></iframe>
 </div>
 <div style="max-width: 600px; margin: 20px auto 0;">
-  <iframe src="https://friendcards.zwei.de.eu.org/?name=MasterKe(柯大师)&specialty=定格生活的美好~;&link=https://blog.masterke.cn" 
+  <iframe src="https://friendcards.zwei.de.eu.org/?name=MasterKe(柯大师)&specialty=定格生活的美好~&link=https://blog.masterke.cn" 
           style="border:none; width:100%; height:160px;" 
           scrolling="no"></iframe>
 </div>
