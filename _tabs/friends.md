@@ -8,8 +8,6 @@ order: 5
   <p>🔗这些是我可爱的朋友们，快来看看吧！🔗</p>
   <a href="mailto:post@zwei.de.eu.org">交换友链</a>✉
 </div>
-
-
 <hr>
 
 <div style="max-width: 600px; margin: 0 auto;">
@@ -23,7 +21,5 @@ order: 5
           style="border:none; width:100%; height:160px;" 
           scrolling="no"></iframe>
 </div>
-
-<hr>
 
 <p align="center">💖 欢迎访问这些站点，发现更多有趣内容！💖</p>
