@@ -21,7 +21,14 @@ order: 5
           style="border:none; width:100%; height:160px;" 
           scrolling="no"></iframe>
 </div>
+<div style="max-width: 600px; margin: 0 auto;">
+  <iframe src="https://friendcards.zwei.de.eu.org/?name=Dale&specialty=Wir%20m%C3%BCssen%20wissen%20!%20Wir%20werden%20wissen%20!&link=https://www.dalechu.cn&avatar=https://i.pstorage.space/i/pLJygzQlJ/large_image.png" 
+          style="border:none; width:100%; height:160px;" 
+          scrolling="no"></iframe>
+</div>
+
 
 ---
 
 <p align="center">💖 欢迎访问这些站点，发现更多有趣内容！💖</p>
+
