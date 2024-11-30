@@ -9,23 +9,33 @@ order: 5
   <a href="mailto:post@zwei.de.eu.org">交换友链</a>✉
 </div>
 <hr>
-
 <div style="max-width: 600px; margin: 0 auto;">
-  <iframe src="https://friendcards.zwei.de.eu.org/?name=LinuxDo&specialty=新的理想型社区&link=https://linux.do&redirect=https://linux.do/?source=zwei_de_eu_org" 
-          style="border:none; width:100%; height:160px;" 
-          scrolling="no"></iframe>
+  <iframe 
+    src="https://friendcards.zwei.de.eu.org/?name=Linux+Do&specialty=%E6%96%B0%E7%9A%84%E7%90%86%E6%83%B3%E5%9E%8B%E7%A4%BE%E5%8C%BA&link=https%3A%2F%2Flinux.do&redirect=https%3A%2F%2Flinux.do%2F%3Fsource%3Dzwei_de_eu_org"
+    style="border: none; width: 100%; height: 160px; overflow: hidden;"
+    loading="lazy"
+    title="Friend Card"
+  ></iframe>
 </div>
 
 <div style="max-width: 600px; margin: 0 auto;">
-  <iframe src="https://friendcards.zwei.de.eu.org/?name=MasterKe(柯大师)&specialty=定格生活的美好~&link=https://blog.masterke.cn&avatar=https://my-blog-picture-1301437686.cos.ap-nanjing.myqcloud.com/2024%2F07%2F24%2F1721836688.jpg" 
-          style="border:none; width:100%; height:160px;" 
-          scrolling="no"></iframe>
+  <iframe 
+    src="https://friendcards.zwei.de.eu.org/?name=MasterKe%28%E6%9F%AF%E5%A4%A7%E5%B8%88%29&specialty=%E5%AE%9A%E6%A0%BC%E7%94%9F%E6%B4%BB%E7%9A%84%E7%BE%8E%E5%A5%BD%7E&link=https%3A%2F%2Fblog.masterke.cn&avatar=https%3A%2F%2Fmy-blog-picture-1301437686.cos.ap-nanjing.myqcloud.com%2F2024%252F07%252F24%252F1721836688.jpg"
+    style="border: none; width: 100%; height: 160px; overflow: hidden;"
+    loading="lazy"
+    title="Friend Card"
+  ></iframe>
 </div>
+
 <div style="max-width: 600px; margin: 0 auto;">
-  <iframe src="https://friendcards.zwei.de.eu.org/?name=Dale&specialty=Wir%20m%C3%BCssen%20wissen%20!%20Wir%20werden%20wissen%20!&link=https://www.dalechu.cn&avatar=https://i.pstorage.space/i/pLJygzQlJ/large_image.png" 
-          style="border:none; width:100%; height:160px;" 
-          scrolling="no"></iframe>
+  <iframe 
+    src="https://friendcards.zwei.de.eu.org/?name=+Dale&specialty=Wir+m%C3%BCssen+wissen+%21+Wir+werden+wissen+%21&link=https%3A%2F%2Fwww.dalechu.cn&avatar=https://pic.imgdb.cn/item/653e45f4c458853aeff4d569.png"
+    style="border: none; width: 100%; height: 160px; overflow: hidden;"
+    loading="lazy"
+    title="Friend Card"
+  ></iframe>
 </div>
+
 
 
 ---
