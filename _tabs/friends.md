@@ -37,6 +37,14 @@ order: 5
   ></iframe>
 </div>
 
+<div style="max-width: 600px; margin: 0 auto;">
+  <iframe 
+    src="https://friendcards.zwei.de.eu.org?name=Comi+%E6%9B%A6%E6%96%B9&specialty=%E3%80%8C+%E5%85%B4%E5%A4%A9%E4%B8%8B%E4%B9%8B%E5%88%A9%EF%BC%8C%E9%99%A4%E5%A4%A9%E4%B8%8B%E4%B9%8B%E5%AE%B3+%E3%80%8D&link=https%3A%2F%2Fcomi.nets.hk%2F&bgcolor=linear-gradient%28135deg%2C+%23d1fae5%2C+%23dbeafe%29&textcolor=%23000000&linkcolor=%237c3aed"
+    style="border: none; width: 100%; height: 195px; overflow: hidden;"
+    loading="lazy"
+    title="Friend Card"
+  ></iframe>
+</div>
 
 
 
