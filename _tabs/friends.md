@@ -28,7 +28,6 @@ order: 5
     title="Friend Card"
   ></iframe>
 </div>
-
 <div style="max-width: 600px; margin: 0 auto;">
   <iframe 
     src="https://friendcards.zwei.de.eu.org/?name=+Dale&specialty=Wir+m%C3%BCssen+wissen+%21+Wir+werden+wissen+%21&link=https%3A%2F%2Fwww.dalechu.cn&avatar=https://pic.imgdb.cn/item/653e45f4c458853aeff4d569.png"
@@ -37,7 +36,6 @@ order: 5
     title="Friend Card"
   ></iframe>
 </div>
-
 
 
 
