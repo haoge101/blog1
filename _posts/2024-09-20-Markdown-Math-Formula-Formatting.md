@@ -95,13 +95,13 @@ $$
 |    \beta    |  β   |   \rho   |  ρ   |
 |   \gamma    |  γ   |   \xi    |  ξ   |
 |   \delta    |  δ   |   \nu    |  ν   |
-|  \epsilon   |      | \upsilon |  υ   |
+|  \epsilon   |  ϵ   | \upsilon |  υ   |
 | \varepsilon |  ε   | \varphi  |  φ   |
 |    \eta     |  η   |   \chi   |  χ   |
 |   \theta    |  θ   |   \psi   |  ψ   |
 |   \kappa    |  κ   |  \omega  |  ω   |
 |    \iota    |  ι   |  \Omega  |  Ω   |
-|    \zeta    |      |  \Gamma  |  Γ   |
+|    \zeta    |  ζ   |  \Gamma  |  Γ   |
 |   \lambda   |  λ   |  \Delta  |  Δ   |
 |     \mu     |  μ   |          |      |
 |    \phi     |  φ   |   \Phi   |  Φ   |
@@ -373,7 +373,7 @@ $$
 $$
 ```
 
-### 表达条件式
+### 表达条件式/分段函数
 
 $$
 f(n) =
@@ -430,3 +430,191 @@ $$
 a\!b + ab + a\,b + a\;b + a\ b + a\quad b + a\qquad b
 $$
 ```
+
+### 箭头符号
+
+|     表达式      | 预览 |
+| :-------------: | :--: |
+|    \uparrow     |  ↑   |
+|   \downarrow    |  ↓   |
+|    \Uparrow     |  ⇑   |
+|   \Downarrow    |  ⇓   |
+|   \rightarrow   |  →   |
+|   \leftarrow    |  ←   |
+|   \Rightarrow   |  ⇒   |
+|   \Leftarrow    |  ⇐   |
+| \longrightarrow |  ⟶   |
+| \longleftarrow  |  ⟵   |
+| \Longrightarrow |  ⟹   |
+| \Longleftarrow  |  ⟸   |
+
+### 逻辑运算符
+
+|   表达式    | 预览 |
+| :---------: | :--: |
+|  \because   |  ∵   |
+| \therefore  |  ∴   |
+|   \forall   |  ∀   |
+|   \exists   |  ∃   |
+|    \not=    |  ≠   |
+|    \not>    |  ≯   |
+| \not\subset |  ⊄   |
+
+### 微积分运算符
+
+| 表达式 | 预览 |
+| :----: | :--: |
+| \prime |  ′   |
+|  \int  |  ∫   |
+| \iint  |  ∬   |
+| \iiint |  ∭   |
+| \oint  |  ∮   |
+|  \lim  | lim  |
+| \infty |  ∞   |
+| \nabla |  ∇   |
+
+### 三角运算符
+
+| 表达式 | 预览 |
+| :----: | :--: |
+|  \bot  |  ⊥   |
+| \angle |  ∠   |
+|  \sin  | sin  |
+|  \cos  | cos  |
+|  \tan  | tan  |
+|  \cot  | cot  |
+|  \sec  | sec  |
+|  \csc  | csc  |
+
+### 希腊字母
+
+|  表达式  | 预览 | 表达式 | 预览 |
+| :------: | :--: | :----: | :--: |
+|  \alpha  |  α   | \beta  |  β   |
+|  \gamma  |  γ   | \delta |  δ   |
+| \epsilon |  ϵ   | \zeta  |  ζ   |
+|   \eta   |  η   | \theta |  θ   |
+|  \iota   |  ι   | \kappa |  κ   |
+| \lambda  |  λ   |  \mu   |  μ   |
+|   \nu    |  ν   |  \xi   |  ξ   |
+|   \pi    |  π   |  \rho  |  ρ   |
+|  \sigma  |  σ   |  \tau  |  τ   |
+| \upsilon |  υ   |  \phi  |  ϕ   |
+|   \chi   |  χ   |  \psi  |  ψ   |
+|  \omega  |  ω   | \Gamma |  Γ   |
+|  \Delta  |  Δ   | \Theta |  Θ   |
+| \Lambda  |  Λ   |  \Xi   |  Ξ   |
+|   \Pi    |  Π   | \Sigma |  Σ   |
+| \Upsilon |  Υ   |  \Phi  |  Φ   |
+|   \Psi   |  Ψ   | \Omega |  Ω   |
+
+### 关系运算符
+
+| 表达式 | 预览 | 表达式  | 预览 |
+| :----: | :--: | :-----: | :--: |
+|  \pm   |  ±   | \times  |  ×   |
+|  \div  |  ÷   |  \mid   |  ∣   |
+| \nmid  |  ∤   |  \cdot  |  ⋅   |
+| \circ  |  ∘   |  \ast   |  ∗   |
+|  \leq  |  ≤   |  \geq   |  ≥   |
+|  \neq  |  ≠   | \approx |  ≈   |
+| \equiv |  ≡   |  \sum   |  ∑   |
+| \prod  |  ∏   | \coprod |  ∐   |
+
+### 集合运算符
+
+|  表达式   | 预览 |  表达式   | 预览 |
+| :-------: | :--: | :-------: | :--: |
+| \emptyset |  ∅   |    \in    |  ∈   |
+|  \notin   |  ∉   |  \subset  |  ⊂   |
+|  \supset  |  ⊃   | \subseteq |  ⊆   |
+| \supseteq |  ⊇   |  \bigcap  |  ⋂   |
+|  \bigcup  |  ⋃   |  \bigvee  |  ⋁   |
+| \bigwedge |  ⋀   | \biguplus |  ⨄   |
+| \bigsqcup |  ⨆   |           |      |
+
+### 对数运算符
+
+| 表达式 | 预览 |
+| :----: | :--: |
+|  \log  | log  |
+|  \lg   |  lg  |
+|  \ln   |  ln  |
+
+
+## 更多数学符号
+
+### 上标与下标
+
+上标：$x^2$, $A^{上标}$  
+下标：$x_2$, $A_{下标}$
+
+### 分数与开方
+
+分数：$\frac{a}{b}$, $\dfrac{2}{3}$  
+开方：$\sqrt{x}$, $\sqrt[3]{x}$
+
+### 积分与极限
+
+积分：$\int_0^2 x^2 \, \mathrm{d}x$  
+极限：$\lim_{n \rightarrow +\infty} \frac{1}{n(n+1)}$
+
+### 矢量与累加累乘
+
+矢量：$\vec{a}$  
+累加：$\sum_{i=0}^n \frac{1}{i^2}$  
+累乘：$\prod_{i=0}^n \frac{1}{i^2}$
+
+### 戴帽符号
+
+| 表达式 | 预览 |
+| :----: | :--: |
+| \hat{x} | ^x  |
+| \check{x} | ˇx |
+| \breve{x} | ˘x |
+| \bar{x} | ¯x  |
+| \tilde{x} | ~x |
+| \widetilde{X} | ˜X |
+| \vec{x} | →x  |
+| \dot{x} | ˙x  |
+| \ddot{x} | ¨x |
+
+### 连线符号
+
+| 表达式 | 预览 |
+| :----: | :--: |
+| \overline{a+b+c+d} | $$\overline{a+b+c+d}$$ |
+| \underline{a+b+c+d} | \underline{a+b+c+d} |
+| \overbrace{a+\underbrace{b+c}{1.0}+d}^{2.0} | \overbrace{a+\underbrace{b+c}{1.0}+d}^{2.0} |
+
+### 其它符号
+
+省略号：$$\cdots$$ 和 $\ldots$  
+行内公式: $R^s_r(t_r,t_e)=(t_r-t_e)c$  
+显示公式: $$R^s_r(t_r,t_e)=(t_r-t_e)c$$
+
+### 线性模型
+
+$$
+h(\theta) = \sum_{j = 0} ^n \theta_j x_j
+$$
+
+### 均方误差
+
+$$
+J(\theta) = \frac{1}{2m}\sum_{i = 0} ^m(y^i - h_\theta (x^i))^2
+$$
+
+### 批量梯度下降
+
+$$
+\frac{\partial J(\theta)}{\partial\theta_j}=-\frac1m\sum_{i=0}^m(y^i-h_\theta(x^i))x^i_j 
+$$
+
+参考文献：
+
+https://www.cnblogs.com/jockming/p/14120987.html
+
+https://blog.csdn.net/cui_yonghua/article/details/119382580
+
+https://www.overleaf.com/learn/latex/Chinese

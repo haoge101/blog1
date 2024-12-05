@@ -1,0 +1,14 @@
+<div id="waline"></div>
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+        el: '#waline',
+        serverURL: '{{ site.comments.waline.server }}',
+        lang: '{{ site.comments.waline.lang }}',
+        dark: '{{ site.comments.waline.dark }}',
+        login: '{{ site.comments.waline.login }}',
+        pageview: {{ site.comments.waline.pageview }}
+    });
+</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" /> 
