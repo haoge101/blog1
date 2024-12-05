@@ -7,8 +7,11 @@
         serverURL: '{{ site.comments.waline.server }}',
         lang: '{{ site.comments.waline.lang }}',
         dark: '{{ site.comments.waline.dark }}',
-        login: '{{ site.comments.waline.login }}',
-        pageview: {{ site.comments.waline.pageview }}
+        pageview: {{ site.comments.waline.pageview }},
+        login: 'disable',
+        requiredMeta: ['nick', 'mail'],
+        meta: ['nick', 'mail', 'link'],
+        placeholder: '欢迎评论！昵称和邮箱为必填项~'
     });
 </script>
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" /> 

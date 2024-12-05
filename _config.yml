@@ -115,7 +115,6 @@ comments:
     server: "https://comment.blog.zwei.de.eu.org"  # 您的 Waline 服务端地址
     lang: zh-CN  # 设置语言
     dark: auto  # 暗黑模式适配
-    login: enable  # 启用登录
     pageview: true # 浏览量统计
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
