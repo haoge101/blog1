@@ -44,6 +44,10 @@
       >Chirpy</a>
     {%- endcapture -%}
 
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+    {%- capture _repo -%}
+      <a href="https://github.com/bestZwei/blog" target="_blank" rel="noopener">Source code</a>
+    {%- endcapture -%}
+
+    The site is powered by {{ _platform }} with the {{ _theme }} theme | {{ _repo }}
   </p>
 </footer>
