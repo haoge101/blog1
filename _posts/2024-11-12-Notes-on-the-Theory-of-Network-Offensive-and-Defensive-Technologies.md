@@ -6,8 +6,9 @@ tags: [大学, 网络攻防, 笔记]
 author: Zwei  # 或 authors: [Zwei, another_author]
 description: "用于复习的笔记，开卷考试恰好用上嘞~"
 image:
-  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241210110251.png
-permalink: '/w/note-on-ml'  # 自定义永久链接
+  path: 
+https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/e5f9c1e3-235f-4f84-89fe-80191fb39a11.jpg
+permalink: '/w/note-on-the-Network-Offensive-and-Defensive-Technologies'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录
 comments: true # 允许评论
