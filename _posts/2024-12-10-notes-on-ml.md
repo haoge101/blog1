@@ -6,8 +6,7 @@ tags: [大学, 机器学习, 笔记]
 author: Zwei  # 或 authors: [Zwei, another_author]
 description: "用于复习的笔记，不太精确和完整"
 image:
-  path: 
-https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241210110251.png
+  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20241210110251.png
 permalink: '/w/note-on-ml'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录
