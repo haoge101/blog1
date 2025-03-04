@@ -46,7 +46,14 @@ order: 5
   ></iframe>
 </div>
 
-
+<div style="max-width: 600px; margin: 0 auto;">
+  <iframe 
+    src="https://friendcards.zwei.de.eu.org?name=Handsome&specialty=%E5%BF%83%E8%8B%A5%E6%9C%89%E6%89%80%E5%90%91%E5%BE%80%EF%BC%8C%E4%BD%95%E6%83%A7%E9%81%93%E9%98%BB%E4%B8%94%E9%95%BF&link=https%3A%2F%2Fwww.lik.cc&avatar=https%3A%2F%2Fwww.lik.cc%2Fupload%2Flogo.png&bgcolor=linear-gradient%28135deg%2C+%23a7f3d0%2C+%2393c5fd%29&textcolor=%235e25f8&linkcolor=%23ff2600&font=Noto+Serif+SC"
+    style="border: none; width: 100%; height: 195px; overflow: hidden;"
+    loading="lazy"
+    title="Friend Card"
+  ></iframe>
+</div>
 
 ---
 
