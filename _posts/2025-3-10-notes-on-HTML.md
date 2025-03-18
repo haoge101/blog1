@@ -6,7 +6,7 @@ tags: [大学, 前端, 笔记]
 author: Zwei  # 或 authors: [Zwei, another_author]
 description: "2025年重制版HTML笔记"
 image:
-  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/image-20250304162009447.png
+  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/image-20250318220605289.png
 permalink: '/w/notes-on-HTM'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录
@@ -17,7 +17,7 @@ render_with_liquid: false # 禁用 Liquid 渲染
 media_subpath: /blog/assets/ # 资源路径前缀
 ---
 
-
+### HTML笔记
 
 #### VScode
 
@@ -30,8 +30,6 @@ media_subpath: /blog/assets/ # 资源路径前缀
 ```js
 ! + 回车
 ```
-
-
 
 **VSCode常用快捷键列表**
 
