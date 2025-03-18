@@ -4,7 +4,7 @@ date: 2025-3-10 12:16:40 +0800
 categories: [Study] # 目前有 Demo, Tutorial, Tech, Study
 tags: [大学, 前端, 笔记]
 author: Zwei  # 或 authors: [Zwei, another_author]
-description: "HTML的笔记"
+description: "2025年重制版HTML笔记"
 image:
   path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/image-20250304162009447.png
 permalink: '/w/notes-on-HTM'  # 自定义永久链接

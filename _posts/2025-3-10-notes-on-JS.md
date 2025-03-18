@@ -4,9 +4,9 @@ date: 2025-3-10 12:16:40 +0800
 categories: [Study] # 目前有 Demo, Tutorial, Tech, Study
 tags: [大学, 前端, 笔记]
 author: Zwei  # 或 authors: [Zwei, another_author]
-description: "JavaScript笔记"
+description: "2025年重制版JavaScript笔记"
 image:
-  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/image-20250304162009447.png
+  path: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/image-20250318215918632.png
 permalink: '/w/notes-on-JavaScript'  # 自定义永久链接
 pin: false # 置顶文章
 toc: true # 显示目录
@@ -16,8 +16,6 @@ mermaid: true # 启用 Mermaid 图表
 render_with_liquid: false # 禁用 Liquid 渲染
 media_subpath: /blog/assets/ # 资源路径前缀
 ---
-
-
 
 ### JavaScript介绍
 
