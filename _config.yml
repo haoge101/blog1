@@ -112,7 +112,7 @@ comments:
   provider: waline  # 启用 waline
   # The provider options are as follows:
   waline:
-    server: "waline-five-azure.vercel.app"  
+    server: "https://waline-five-azure.vercel.app/"  
     lang: zh-CN  # 设置语言
     dark: auto  # 暗黑模式适配
     pageview: true # 浏览量统计
