@@ -69,7 +69,7 @@ analytics:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
   cloudflare:
-    id: eb82e626013e4d328ce2ab3ad8475e36 # fill in your Cloudflare Web Analytics token
+    id: # fill in your Cloudflare Web Analytics token
   fathom:
     id: # fill in your Fathom Site ID
 
@@ -112,7 +112,7 @@ comments:
   provider: waline  # 启用 waline
   # The provider options are as follows:
   waline:
-    server: "https://waline-five-azure.vercel.app"  
+    server: "https://comment.139123.xyz"  
     lang: zh-CN  # 设置语言
     dark: auto  # 暗黑模式适配
     pageview: true # 浏览量统计
